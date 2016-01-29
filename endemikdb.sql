@@ -1,23 +1,8 @@
--- phpMyAdmin SQL Dump
--- version 2.10.1
--- http://www.phpmyadmin.net
--- 
--- Host: localhost
--- Generation Time: Jun 16, 2010 at 01:56 AM
--- Server version: 5.0.41
--- PHP Version: 4.4.4
+
 
 SET SQL_MODE="NO_AUTO_VALUE_ON_ZERO";
 
--- 
--- Database: `endemikdb`
--- 
 
--- --------------------------------------------------------
-
--- 
--- Table structure for table `admin`
--- 
 
 CREATE TABLE `admin` (
   `id` int(3) NOT NULL auto_increment,
