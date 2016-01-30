@@ -25,7 +25,6 @@ ini_set('display_errors',FALSE);
 	}
 	else
 	{
-		//ubah status login
 		$update_stat=mysql_db_query($db,"update daftar set status='1' where id='$user_id'",$koneksi);
 		session_register('user_id');
 		session_register('user_name');
