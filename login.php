@@ -92,7 +92,6 @@ function cek(){
 			
 		</table>
 		</form>
-		
 		</td></tr>
 	</table>
 	</td>
