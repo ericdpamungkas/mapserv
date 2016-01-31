@@ -1,5 +1,5 @@
 <html>
-<head><title>GIS Penyebaran Penyakit</title>
+<head><title>GIS  Penyebaran Penyakit</title>
 
 </head>
 <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
