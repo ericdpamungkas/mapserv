@@ -1,5 +1,3 @@
-
-
 <html>
 <head><title>GIS Penyebaran Penyakit</title>
 
