@@ -1,9 +1,7 @@
 
 
 SET SQL_MODE="NO_AUTO_VALUE_ON_ZERO";
-
-
-
+//buat tabel
 CREATE TABLE `admin` (
   `id` int(3) NOT NULL auto_increment,
   `nama` varchar(255) collate latin1_general_ci NOT NULL,
