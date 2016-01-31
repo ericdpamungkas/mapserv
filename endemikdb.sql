@@ -40,12 +40,6 @@ CREATE TABLE `counter` (
 
 INSERT INTO `counter` VALUES ('2008-11-16 13:03:54', 625);
 
--- --------------------------------------------------------
-
--- 
--- Table structure for table `daftar`
--- 
-
 CREATE TABLE `daftar` (
   `id` int(5) NOT NULL auto_increment,
   `nama` varchar(50) collate latin1_general_ci NOT NULL,
