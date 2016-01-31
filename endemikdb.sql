@@ -38,10 +38,6 @@ CREATE TABLE `counter` (
   `jml` int(3) NOT NULL
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1 COLLATE=latin1_general_ci;
 
--- 
--- Dumping data for table `counter`
--- 
-
 INSERT INTO `counter` VALUES ('2008-11-16 13:03:54', 625);
 
 -- --------------------------------------------------------
