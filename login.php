@@ -19,7 +19,7 @@ ini_set('display_errors',FALSE);
 	if (empty($cek_login))
 	{
 		?>
-		<script language="javascript">alert("Password atau Username Anda salah!!");</script>
+		<script language="javascript">alert("Password atau Username Anda tidak sesuai!!");</script>
 		<script> document.location.href='index.php?page=4'; </script>
 		<?
 	}
