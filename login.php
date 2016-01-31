@@ -41,11 +41,11 @@ function cek(){
 	var user= document.getElementById('userid').value;
 	var pass= document.getElementById('passwd').value;
 	if(user.replace(/^\s+|\s+$/g, '')==''){
-		alert('Username tidak boleh kosong !');
+		alert('Username belum diisi !');
 		return false;
 	} 
 	if(pass.replace(/^\s+|\s+$/g, '')==''){
-		alert('Password tidak boleh kosong !');
+		alert('Password belum diisi !');
 		return false;
 	}
 	return true;
