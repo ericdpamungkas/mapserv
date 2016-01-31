@@ -33,15 +33,11 @@ ini_set('display_errors',FALSE);
 		<script> document.location.href='index.php?page=4'; </script>
 		<?
 	}
-
-	
-
-
 ?>
- 
 <html>
 <script language="javascript">
 function cek(){
+	//ini  buat validasi
 	var user= document.getElementById('userid').value;
 	var pass= document.getElementById('passwd').value;
 	if(user.replace(/^\s+|\s+$/g, '')==''){
