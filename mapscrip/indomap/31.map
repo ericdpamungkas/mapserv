@@ -1,0 +1,254 @@
+MAP
+EXTENT 106.333126117 -6.420833418 107.022825365 -5.134322317
+SIZE 1200 1000
+SHAPEPATH "shp"
+#SYMBOLSET "../../common/symbols/symbols-pmapper.sym"
+#FONTSET "../../common/fonts/msfontset.txt"
+RESOLUTION 96
+IMAGETYPE png
+INTERLACE OFF
+PROJECTION
+  'proj=longlat'
+  'ellps=WGS84'
+  'datum=WGS84'
+  'no_defs'
+END
+OUTPUTFORMAT
+NAME "png"
+DRIVER AGG/PNG
+MIMETYPE "image/png"
+IMAGEMODE RGBA
+TRANSPARENT ON
+EXTENSION "png"
+FORMATOPTION "GAMMA=0.75"
+END
+
+WEB
+  TEMPLATE "map.html"
+  IMAGEPATH "/Users/awangga/Sites/indomap/tmp/"
+  IMAGEURL "/indomap/tmp/"
+  METADATA
+    "ows_title" "DKI JAKARTA"
+    "wms_enable_request" "*"
+    "ows_onlineresource" "http://185.53.128.235/cgi-bin/mapserv?map=/var/www/sddkn/map/2014/mapfile/31.map"
+    wms_srs "EPSG:4326 EPSG:900913"
+    #TAMBAHAN 
+	"wms_dataurl_format" "text/HTML"
+    "gml_include_items"     "all"
+	"gml_exclude_items"     ""
+    "ows_include_items"     "all"
+    "ows_exclude_items"     "" 
+	"wms_feature_info_mime_type" "text/plain"
+    "wms_feature_info_mime_type" "text/html"
+    #END TAMBAHAN
+	"wms_exceptions_format" "application/vnd.ogc.se_xml"
+  END
+END
+
+LAYER
+NAME "kode_31"
+TYPE POLYGON
+DATA "31"
+PROCESSING "LABEL_NO_CLIP=ON"
+LABELCACHE ON
+LABELITEM "KABKOT"
+TOLERANCE 3
+TOLERANCEUNITS pixels
+TEMPLATE void
+METADATA
+"DESCRIPTION" "DKI JAKARTA"
+'ows_title' 'DKI JAKARTA'
+END
+CLASS
+TEMPLATE '../../templates/info.html'
+Name 'Batas DKI JAKARTA'
+	COLOR 255 255 255
+	OUTLINECOLOR 22 241 44
+	LABEL
+        COLOR  0 0 0
+        OUTLINECOLOR 255 255 255
+        FONT "FreeSans"
+        TYPE truetype
+        SIZE 5
+        #ANGLE [AUTO2]        
+        POSITION CC
+        PARTIALS TRUE
+        MINDISTANCE 50
+        REPEATDISTANCE 9999
+    END
+END
+END
+
+
+
+LAYER
+NAME "kode_3101"
+TYPE POLYGON
+DATA "3101"
+TOLERANCE 3
+TOLERANCEUNITS pixels
+TEMPLATE void
+METADATA
+"DESCRIPTION" "KEPULAUAN SERIBU"
+END
+CLASS
+Name 'Batas KEPULAUAN SERIBU'
+	COLOR 255 255 255
+	OUTLINECOLOR 22 241 44
+	LABEL
+        COLOR  0 0 0
+        OUTLINECOLOR 255 255 255
+        FONT "FreeSans"
+        TYPE truetype
+        SIZE 5
+        #ANGLE [AUTO2]        
+        POSITION CC
+        PARTIALS TRUE
+        MINDISTANCE 50
+        REPEATDISTANCE 9999
+    END
+END
+
+
+END
+LAYER
+NAME "kode_3171"
+TYPE POLYGON
+DATA "3171"
+TOLERANCE 3
+TOLERANCEUNITS pixels
+TEMPLATE void
+METADATA
+"DESCRIPTION" "JAKARTA SELATAN"
+END
+CLASS
+Name 'Batas JAKARTA SELATAN'
+	COLOR 255 255 255
+	OUTLINECOLOR 22 241 44
+	LABEL
+        COLOR  0 0 0
+        OUTLINECOLOR 255 255 255
+        FONT "FreeSans"
+        TYPE truetype
+        SIZE 5
+        #ANGLE [AUTO2]        
+        POSITION CC
+        PARTIALS TRUE
+        MINDISTANCE 50
+        REPEATDISTANCE 9999
+    END
+END
+END
+LAYER
+NAME "kode_3172"
+TYPE POLYGON
+DATA "3172"
+TOLERANCE 3
+TOLERANCEUNITS pixels
+TEMPLATE void
+METADATA
+"DESCRIPTION" "JAKARTA TIMUR"
+END
+CLASS
+Name 'Batas JAKARTA TIMUR'
+	COLOR 255 255 255
+	OUTLINECOLOR 22 241 44
+	LABEL
+        COLOR  0 0 0
+        OUTLINECOLOR 255 255 255
+        FONT "FreeSans"
+        TYPE truetype
+        SIZE 5
+        #ANGLE [AUTO2]        
+        POSITION CC
+        PARTIALS TRUE
+        MINDISTANCE 50
+        REPEATDISTANCE 9999
+    END
+END
+END
+LAYER
+NAME "kode_3173"
+TYPE POLYGON
+DATA "3173"
+TOLERANCE 3
+TOLERANCEUNITS pixels
+TEMPLATE void
+METADATA
+"DESCRIPTION" "JAKARTA PUSAT"
+END
+CLASS
+Name 'Batas JAKARTA PUSAT'
+	COLOR 255 255 255
+	OUTLINECOLOR 22 241 44
+	LABEL
+        COLOR  0 0 0
+        OUTLINECOLOR 255 255 255
+        FONT "FreeSans"
+        TYPE truetype
+        SIZE 5
+        #ANGLE [AUTO2]        
+        POSITION CC
+        PARTIALS TRUE
+        MINDISTANCE 50
+        REPEATDISTANCE 9999
+    END
+END
+END
+LAYER
+NAME "kode_3174"
+TYPE POLYGON
+DATA "3174"
+TOLERANCE 3
+TOLERANCEUNITS pixels
+TEMPLATE void
+METADATA
+"DESCRIPTION" "JAKARTA BARAT"
+END
+CLASS
+Name 'Batas JAKARTA BARAT'
+	COLOR 255 255 255
+	OUTLINECOLOR 22 241 44
+	LABEL
+        COLOR  0 0 0
+        OUTLINECOLOR 255 255 255
+        FONT "FreeSans"
+        TYPE truetype
+        SIZE 5
+        #ANGLE [AUTO2]        
+        POSITION CC
+        PARTIALS TRUE
+        MINDISTANCE 50
+        REPEATDISTANCE 9999
+    END
+END
+END
+LAYER
+NAME "kode_3175"
+TYPE POLYGON
+DATA "3175"
+TOLERANCE 3
+TOLERANCEUNITS pixels
+TEMPLATE void
+METADATA
+"DESCRIPTION" "JAKARTA UTARA"
+END
+CLASS
+Name 'Batas JAKARTA UTARA'
+	COLOR 255 255 255
+	OUTLINECOLOR 22 241 44
+	LABEL
+        COLOR  0 0 0
+        OUTLINECOLOR 255 255 255
+        FONT "FreeSans"
+        TYPE truetype
+        SIZE 5
+        #ANGLE [AUTO2]        
+        POSITION CC
+        PARTIALS TRUE
+        MINDISTANCE 50
+        REPEATDISTANCE 9999
+    END
+END
+END
+END

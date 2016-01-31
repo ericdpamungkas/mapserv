@@ -1,0 +1,24 @@
+<html>
+<body bgcolor="#CCCCCC">
+<center>
+
+<H1>PHP/MapScript Test Page</H1>
+<P>
+ 
+<?php
+$map = ms_newMapObj("demo.map");
+$img = $map->draw();
+$url = $img->saveWebImage();
+printf("<IMG SRC=%s WIDTH=%d HEIGHT=%d>\n", $url, $map->width, $map->height);
+$img = $map->drawLegend();
+$url = $img->saveWebImage();
+printf("<P><IMG SRC=%s>\n", $url);
+$img = $map->drawScaleBar();
+$url = $img->saveWebImage();
+printf("<P><IMG SRC=%s>\n", $url);
+ 
+?>
+ 
+</body>
+</html>
+
