@@ -16,11 +16,6 @@ CREATE TABLE `admin` (
 INSERT INTO `admin` VALUES (1, 'Agus Sumarna', 'sumarna@yahoo.com', 'pria', 'agus', 'fdf169558242ee051cca1479770ebac3');
 INSERT INTO `admin` VALUES (2, 'Siera Nevada', 'siera@yahoo.com', 'Wanita', 'siera', '47c0abc24dd9c450577173afdd173d64');
 
--- --------------------------------------------------------
-
--- 
--- Table structure for table `berita`
--- 
 
 CREATE TABLE `berita` (
   `id_brt` int(3) NOT NULL auto_increment,
